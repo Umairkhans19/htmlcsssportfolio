@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Umair Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Umair <span>Dilshad</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#services">Services</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#contact">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        
+    </nav>
+    
+    <section id="home">
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="4000">
+                <img src="images/umair1.jfif" alt="Your Photo">
+            </div>
+            <div class="content">
+    
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I am a <span class="typewriter-text"></span><label for="">|</label></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">I am a passionate Web Developer with expertise in crafting interactive and engaging websites. My skills span HTML, CSS, JavaScript, and popular frameworks like React, allowing me to deliver both creative and technical solutions. I specialize in creating responsive, user-friendly designs that ensure a smooth and consistent experience across different devices. From developing bespoke web applications to optimizing performance, I am committed to helping businesses reach their digital goals with innovation and effectiveness.</p>
+
+                <div class="social-links">
+                    <a href="https://github.com/Umairkhans19" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    
+                    </a>
+                    <a href="https://www.linkedin.com/in/umair-khan-983788b3/" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                   
+                </div>
+                
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <a href="#contact">Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hi, I am Umair Dilshad, a passionate web developer dedicated to crafting visually stunning and highly functional websites. With expertise in front-end technologies such as HTML, CSS, JavaScript, and React, I focus on delivering exceptional user experiences. My design sensibilities allow me to seamlessly integrate aesthetics with usability, ensuring that every project I undertake is both beautiful and effective.
+        </p>
+        <p>
+            I am a firm believer in continuous learning and constantly strive to stay at the forefront of the ever-evolving web development landscape. By keeping myself updated with the latest trends and technologies, I aim to create innovative solutions that empower businesses and drive their success in the digital world.
+        </p>
+        <p>
+            Beyond coding, I enjoy staying connected to the tech community, exploring new advancements, and watching tutorial videos to sharpen my skills. When I’m not immersed in development, I love spending quality time with my loved ones, keeping a healthy balance between work and personal life.
+        </p>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <p>
+            <b> I offer a range of web development services, including:</b>
+        </p>
+        <ul>
+            <li>Responsive Web Design</li>
+            <li>Front-End Development</li>
+            <li>Back-End Development</li>
+            <li>E-commerce Solutions</li>
+            <li>Website Maintenance</li>
+            <li>Consultation and Strategy</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
